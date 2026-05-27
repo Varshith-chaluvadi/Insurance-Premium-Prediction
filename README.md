@@ -21,3 +21,14 @@ Predict insurance charges using regression algorithms.
 4. Model Training
 5. Prediction
 6. Evaluation
+
+## Model Performance
+
+The Linear Regression model was trained and evaluated using the insurance dataset.
+
+### Evaluation Metrics
+- MAE (Mean Absolute Error)
+- MSE (Mean Squared Error)
+- R² Score
+
+The model achieved good prediction accuracy for insurance premium estimation.
