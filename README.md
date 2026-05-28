@@ -1,34 +1,80 @@
 # Insurance Premium Prediction Using Machine Learning
 
 ## Project Overview
-This project predicts insurance premium costs using Machine Learning based on customer attributes such as age, gender, BMI, smoking habits, and region.
+This project predicts insurance premium charges using Machine Learning techniques based on customer attributes such as age, BMI, smoking status, gender, and region.
 
 ## Objective
-Predict insurance charges using regression algorithms.
+To estimate insurance charges accurately using regression algorithms.
+
+---
 
 ## Technologies Used
 - Python
 - Pandas
 - NumPy
-- Scikit-learn
 - Matplotlib
 - Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-## Workflow
+---
+
+## Dataset Information
+
+Dataset contains:
+- 1338 rows
+- 7 columns
+
+Features:
+- Age
+- Gender
+- BMI
+- Children
+- Smoker
+- Region
+- Charges
+
+---
+
+## Exploratory Data Analysis
+
+### Distribution of Insurance Charges
+
+![Charges Distribution](images/charges_distribution.png)
+
+### Smoker vs Insurance Charges
+
+![Smoker vs Charges](images/smoker_vs_charges.png)
+
+### Age vs Insurance Charges
+
+![Age vs Charges](images/age_vs_charges.png)
+
+---
+
+## Machine Learning Workflow
 1. Data Collection
-2. Data Preprocessing
+2. Data Cleaning
 3. Exploratory Data Analysis
-4. Model Training
-5. Prediction
-6. Evaluation
+4. Feature Encoding
+5. Train-Test Split
+6. Model Training
+7. Prediction
+8. Evaluation
 
-## Model Performance
+---
 
-The Linear Regression model was trained and evaluated using the insurance dataset.
+## Model Used
+- Linear Regression
 
-### Evaluation Metrics
-- MAE (Mean Absolute Error)
-- MSE (Mean Squared Error)
+---
+
+## Evaluation Metrics
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
 - R² Score
 
-The model achieved good prediction accuracy for insurance premium estimation.
+---
+
+## Conclusion
+The model successfully predicts insurance premium charges using customer information and achieved good prediction performance using Linear Regression.
