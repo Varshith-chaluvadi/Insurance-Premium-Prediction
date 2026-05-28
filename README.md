@@ -1,25 +1,63 @@
 # Insurance Premium Prediction Using Machine Learning
 
-## Project Overview
-This project predicts insurance premium charges using Machine Learning techniques based on customer attributes such as age, BMI, smoking status, gender, and region.
-
-## Objective
-To estimate insurance charges accurately using regression algorithms.
+A futuristic AI-powered web application that predicts insurance premium costs using Machine Learning based on customer profile details such as age, BMI, smoking habits, gender, children, and region.
 
 ---
 
-## Technologies Used
+# Project Overview
+
+This project uses Machine Learning regression techniques to estimate annual insurance premium charges. The application includes:
+
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Model training and evaluation
+- Interactive prediction system
+- Modern futuristic dashboard UI
+
+The project demonstrates the practical implementation of Machine Learning in the insurance and fintech domain.
+
+---
+
+# Features
+
+- Predict insurance premium instantly
+- Modern futuristic UI dashboard
+- Real-time premium estimation
+- Risk profile analysis
+- Monthly premium estimation
+- Prediction confidence display
+- Interactive sliders and dropdowns
+- Responsive glassmorphism design
+
+---
+
+# Technologies Used
+
+## Machine Learning
 - Python
 - Pandas
 - NumPy
+- Scikit-learn
+
+## Data Visualization
 - Matplotlib
 - Seaborn
-- Scikit-learn
+
+## Frontend/UI
+- Antigravity UI
+- Modern Glassmorphism Design
+- Futuristic Fintech Styling
+
+## Development Tools
 - Jupyter Notebook
+- VS Code
+- Git & GitHub
 
 ---
 
-## Dataset Information
+# Dataset Information
+
+Dataset: Medical Cost Personal Dataset
 
 Dataset contains:
 - 1338 rows
@@ -30,29 +68,14 @@ Features:
 - Gender
 - BMI
 - Children
-- Smoker
+- Smoker Status
 - Region
-- Charges
+- Insurance Charges
 
 ---
 
-## Exploratory Data Analysis
+# Machine Learning Workflow
 
-### Distribution of Insurance Charges
-
-![Charges Distribution](images/charges_distribution.png)
-
-### Smoker vs Insurance Charges
-
-![Smoker vs Charges](images/smoker_vs_charges.png)
-
-### Age vs Insurance Charges
-
-![Age vs Charges](images/age_vs_charges.png)
-
----
-
-## Machine Learning Workflow
 1. Data Collection
 2. Data Cleaning
 3. Exploratory Data Analysis
@@ -60,21 +83,74 @@ Features:
 5. Train-Test Split
 6. Model Training
 7. Prediction
-8. Evaluation
+8. Model Evaluation
+9. Model Saving
+10. Frontend Integration
 
 ---
 
-## Model Used
+# Exploratory Data Analysis
+
+The project includes:
+- Distribution Analysis
+- Correlation Analysis
+- Smoker vs Charges Analysis
+- Age vs Charges Analysis
+- Data Visualization using Seaborn and Matplotlib
+
+---
+
+# Model Used
+
 - Linear Regression
 
+The model predicts insurance premium charges based on customer details.
+
 ---
 
-## Evaluation Metrics
+# Evaluation Metrics
+
+The model was evaluated using:
+
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - R² Score
 
+The model achieved good prediction accuracy for insurance premium estimation.
+
 ---
 
-## Conclusion
-The model successfully predicts insurance premium charges using customer information and achieved good prediction performance using Linear Regression.
+# Modern AI Dashboard UI
+
+## Homepage
+
+![Homepage](images/homepage.png)
+
+## Prediction Result
+
+![Prediction Result](images/prediction_result.png)
+
+---
+
+# Project Structure
+
+```bash
+Insurance_Premium_Prediction/
+│
+├── data/
+│   └── insurance.csv
+│
+├── notebooks/
+│   └── Insurance_Premium_Prediction.ipynb
+│
+├── models/
+│   └── model.pkl
+│
+├── images/
+│   ├── homepage.png
+│   └── prediction_result.png
+│
+├── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
